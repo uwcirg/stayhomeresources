@@ -1994,19 +1994,23 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 3em ;
-			width: 50%;
+			padding: 1.5em 1.5em 0.1em 1.5em ;
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
-			.features section:nth-child(-n + 2) {
+			/*.features section:nth-child(-n + 2) {
 				border-top-width: 0;
 			}
 
 			.features section:nth-child(2n) {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
-			}
+			}*/
+			
+			.features section:first-child {
+						border-top-width: 0 !important;
+					}
 
 			.features section .icon {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
