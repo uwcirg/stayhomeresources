@@ -122,23 +122,28 @@
 							
 							
 							<h2>Your State/Territory</h2>
-							<p>Select your region from the drop down below</p>
+							
 							<div class="f-wrapper">
 						       <select id="roleSel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
 						              <option value="washington">Washington State</option>
-						              <option value="alabama">Alabama State</option>
+						              <option value="alabama">Alabama</option>
 						              <option value="alaska">Alaska</option>
 						              <option value="samoa">American Samoa</option>
-						              <option value="arizona">Arizona</option> 
+						              <option value="arizona">Arizona</option>
+									  <option value="arkansas">Arkansas</option>
+									  <option value="california">California</option>
+									  <option value="colorado">Colorado</option>
+									  <option vlaue="Connecticut">Connecticut</option>
 						       </select>
 						    </div>
+							<p>Select your region from the drop down to see localized resources</p>
 							<div class="features">
 								<div id="washington" class="hidden" style="display: block;">
 									<section>  
 										<h3>WA DOH 2019 Novel Coronavirus Outbreak (COVID-19)</h3>
 										<p>Washington DOH dashboard regarding statewide testing, cases and deaths, and a candid depiction of the impact of reporting delay</p>
 										<ul class="actions">
-											<li><a href="https://www.doh.wa.gov/Emergencies/Coronavirus" class="button" target="_blank">open doh.wa.gov</a></li>
+											<li><a href="https://www.doh.wa.gov/Emergencies/Coronavirus" class="button" target="_blank">www.doh.wa.gov/Emergencies/Coronavirus</a></li>
 										</ul>
 									</section>
 									<!--<section>
@@ -175,7 +180,7 @@
 										<h3>Alabama Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
 										<p>Alabama Public Health dashboard regarding statewide testing, cases and deaths, and a candid depiction of the impact of reporting delay</p>
 										<ul class="actions">
-											<li><a href="https://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html" class="button" target="_blank">open alabamapublichealth.gov</a></li>
+											<li><a href="https://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html" class="button" target="_blank">alabamapublichealth.gov</a></li>
 										</ul>
 									</section>
 								</div>
@@ -183,7 +188,7 @@
 									<section>  
 										<h3>Alaska Department of Health and Social Services - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
 										<ul class="actions">
-											<li><a href="http://dhss.alaska.gov/Pages/default.aspx" class="button" target="_blank">open dhss.alaska.gov</a></li>
+											<li><a href="http://dhss.alaska.gov/Pages/default.aspx" class="button" target="_blank">dhss.alaska.gov</a></li>
 										</ul>
 									</section>
 								</div>
@@ -191,7 +196,7 @@
 									<section>  
 										<h3>American Samoa Department of Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
 										<ul class="actions">
-											<li><a href=" https://www.americansamoa.gov/department-of-public-health" class="button" target="_blank">Open americansamoa.gov</a></li>
+											<li><a href="https://www.americansamoa.gov/department-of-public-health" class="button" target="_blank">americansamoa.gov</a></li>
 										</ul>
 									</section>
 								</div>
@@ -203,9 +208,42 @@
 										</ul>
 									</section>
 								</div>
+								<div id="arkansas" class="hidden"  style="display: none;">
+									<section>  
+										<h3>Arkansas Department of Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus" class="button" target="_blank">Open healthy.arkansas.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="california" class="hidden"  style="display: none;">
+									<section>  
+										<h3>California Department of Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx" class="button" target="_blank">Open cdph.ca.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="colorado" class="hidden"  style="display: none;">
+									<section>  
+										<h3>Colorado Department of Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="https://covid19.colorado.gov/" class="button" target="_blank">Open covid19.colorado.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="Connecticut" class="hidden"  style="display: none;">
+									<section>  
+										<h3>Connecticut State Website - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="https://portal.ct.gov/Coronavirus" class="button" target="_blank">Open portal.ct.gov</a></li>
+										</ul>
+									</section>
+								</div>
 							</div>
 								<script>
-								var ids=["washington", "alabama", "alaska", "samoa", "arizona"];
+								var ids=["washington", "alabama", "alaska", "samoa", "arizona", "arkansas", "california",
+								 "colorado", "Connecticut"];
 								var dropDown = document.getElementById("roleSel");
 								
 								dropDown.onchange = function(){
