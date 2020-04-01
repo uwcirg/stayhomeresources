@@ -120,6 +120,102 @@
 
 							</div>
 							
+							
+							<h2>Your State/Territory</h2>
+							<p>Select your region from the drop down below</p>
+							<div class="f-wrapper">
+						       <select id="roleSel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
+						              <option value="washington">Washington State</option>
+						              <option value="alabama">Alabama State</option>
+						              <option value="alaska">Alaska</option>
+						              <option value="samoa">American Samoa</option>
+						              <option value="arizona">Arizona</option>
+						       </select>
+						    </div>
+							<div class="features">
+								<div id="washington" class="hidden" style="display: block;">
+									<section>  
+										<h3>WA DOH 2019 Novel Coronavirus Outbreak (COVID-19)</h3>
+										<p>Washington DOH dashboard regarding statewide testing, cases and deaths, and a candid depiction of the impact of reporting delay</p>
+										<ul class="actions">
+											<li><a href="https://www.doh.wa.gov/Emergencies/Coronavirus" class="button" target="_blank">www.doh.wa.gov/Emergencies/Coronavirus</a></li>
+										</ul>
+									</section>
+									<!--<section>
+										<h3>Seattle & King County Daily 4PM News updates</h3>
+										<p>Local announcements, and the bottom of each day’s report has summary counts</p>
+										<ul class="actions">
+											<li><a href="https://www.kingcounty.gov/depts/health/news.aspx" class="button" target="_blank">Open kingcounty.gov/depts/health/...</a></li>
+										</ul>
+									</section>
+									<section>
+										<h3>Seattle & King County COVID-19 Dashboard</h3>
+										<p>Graphic summary throughout the county of tests, positives, and deaths</p>
+										<ul class="actions">
+											<li><a href="https://covid19.healthdata.org/projections" class="button" target="_blank">Open covid19.healthdata.org</a></li>
+										</ul>
+									</section>
+									<section>
+										<h3>UW Virology Lab Testing data</h3>
+										<p>Updated late every day.  UW has a significant role in WA state testing.</p>
+										<ul class="actions">
+											<li><a href="http://depts.washington.edu/labmed/covid19/" class="button" target="_blank">Open depts.washington.edu/labmed/...</a></li>
+										</ul>
+									</section>
+									<section>
+										<h3>Public Health SKC Community Blog</h3>
+										<p>Official Insights from Public Health Seattle & King County Staff</p>
+										<ul class="actions">
+											<li><a href="https://publichealthinsider.com/" class="button" target="_blank">Open publichealthinsider.com/</a></li>
+										</ul>
+									</section>-->
+								</div>
+								<div id="alabama" class="hidden" style="display: none;">
+									<section>  
+										<h3>Alabama Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<p>Alabama Public Health dashboard regarding statewide testing, cases and deaths, and a candid depiction of the impact of reporting delay</p>
+										<ul class="actions">
+											<li><a href="https://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html" class="button" target="_blank">alabamapublichealth.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="alaska" class="hidden" style="display: none;">
+									<section>  
+										<h3>Alaska Department of Health and Social Services - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="http://dhss.alaska.gov/Pages/default.aspx" class="button" target="_blank">dhss.alaska.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="samoa" class="hidden" style="display: none;">
+									<section>  
+										<h3>American Samoa Department of Public Health - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="http://dhss.alaska.gov/Pages/default.aspx" class="button" target="_blank">dhss.alaska.gov</a></li>
+										</ul>
+									</section>
+								</div>
+								<div id="arizona" class="hidden" style="display: none;">
+									<section>  
+										<h3>Arizona Department of Health Services - Coronavirus Disease 2019 (COVID-19) Dashboard</h3>
+										<ul class="actions">
+											<li><a href="https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home" class="button" target="_blank">Open tazdhs.gov</a></li>
+										</ul>
+									</section>
+								</div>
+							</div>
+								<script>
+								var ids=["washington", "alabama", "alaska", "samoa", "arizona"];
+								var dropDown = document.getElementById("roleSel");
+								
+								dropDown.onchange = function(){
+								    for(var x = 0; x < ids.length; x++){   
+								        document.getElementById(ids[x]).style.display="none";
+								    }    
+								    document.getElementById(this.value).style.display = "block";
+								}
+								</script>
+							
 							<h2>For All States</h2>
 							<div class="features">
 								<section>  
@@ -136,26 +232,9 @@
 										<li><a href="https://covid19.healthdata.org/projections" class="button" target="_blank">Open covid19.healthdata.org</a></li>
 									</ul>
 								</section>
-								
-									
+	
 							</div>
-							<h2>For Specific States</h2>
-							<div class="features">
-								<section id="stateList">  <!-- added Id to minimumze jumping from unimplemented stateList button -->
-									<h3>WA DOH 2019 Novel Coronavirus Outbreak (COVID-19)</h3>
-									<p>Washington DOH dashboard regarding statewide testing, cases and deaths, and a candid depiction of the impact of reporting delay</p>
-									<ul class="actions">
-										<li><a href="https://www.doh.wa.gov/Emergencies/Coronavirus" class="button" target="_blank">www.doh.wa.gov/Emergencies/Coronavirus</a></li>
-									</ul>
-								</section>
-								<!--<section> commenting out till its implemented
-									<h3>State/Territory Departments of Health</h3>
-									<p>Links to Coronavirus information and resources from Departments of Health across the US</p>
-									<ul class="actions">
-										<li><a href="#stateList" class="button" target="_blank">Link not yet implemented</a></li>
-									</ul>
-								</section>-->
-							</div>
+							
 							<h2>US National Level</h2>
 							<div class="features">
 								<section>
