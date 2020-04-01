@@ -326,6 +326,10 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	
+	/*.hidden {
+    	display: none;
+	}*/
 
 /* Row */
 
@@ -2321,12 +2325,16 @@ input, select, textarea {
 		border-radius: 0.25em;
 		border: none;
 		border: solid 1px rgba(255, 255, 255, 0.15);
+		border-bottom: solid 2px rgba(255, 255, 255, 0.5);
 		color: inherit;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 1.25em;
+		width: 75%;
 	}
 
 		input[type="text"]:invalid,
