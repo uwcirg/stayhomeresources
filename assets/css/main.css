@@ -2337,6 +2337,18 @@ input, select, textarea {
 		width: 75%;
 	}
 
+	@media screen and (max-width: 736px) {
+		input[type="text"],
+		input[type="password"],
+		input[type="email"],
+		input[type="tel"],
+		select,
+		textarea {
+		
+			width: 100%;
+		}
+	}	
+
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
