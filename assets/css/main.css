@@ -3492,18 +3492,19 @@ input, select, textarea {
 		margin-left: 14em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		/*@media screen and (max-width: 1280px) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
 				padding-top: 3.5em;
 			}
 
-		}
+		}*/
 
 		@media screen and (max-width: 736px) {
 
 			#sidebar + #wrapper {
+				margin-left: 0;
 				padding-top: 0;
 				
 			}
@@ -4037,7 +4038,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			#sidebar {
 				height: 3.5em;
@@ -4097,7 +4098,7 @@ input, select, textarea {
 							background-color: #b74e91;
 						}
 
-		}
+		}*/
 
 		@media screen and (max-width: 736px) {
 
