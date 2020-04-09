@@ -161,6 +161,7 @@
 								<div class="f-wrapper">
 						    		<select id="citySel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
 						           		<option value="seattle">Seattle & King County</option>
+										<option value="Snohomish">Snohomish County</option>
 								  	</select>
 								</div>
 								<p>Select your city or county from the drop down to see localized resources</p>
@@ -186,6 +187,24 @@
 											<p>Official Insights from Public Health Seattle & King County Staff</p>
 											<ul class="actions">
 												<li><a href="https://publichealthinsider.com/" class="button">Open publichealthinsider.com</a></li>
+											</ul>
+										</section>
+									</div>
+								</div>
+								<div id="Snohomish" class="hidden" style="display: none;">
+									<div class="features">
+										<section>
+											<h3>Snohomish County Emergency Coordination Center COVID-19 Response</h3>
+											<p>The Snohomish County Emergency Coordination Center (ECC) has been activated to focus the community’s resources on combating the spread of the novel coronavirus/COVID-19.</p>
+											<ul class="actions">
+												<li><a href="https://www.snohd.org/499/COVID-19-Case-Count-Info" class="button">Open snohd.org</a></li>
+											</ul>
+										</section>
+										<section>
+											<h3>COVID-19 CASE COUNT INFORMATION FOR SNOHOMISH COUNTY RESIDENTS</h3>
+											<p>The Snohomish Health District is providing updates at approximately 2 p.m daily on case counts in Snohomish County.</p>
+											<ul class="actions">
+												<li><a href="https://snohomishcountywa.gov/5589/COVID-19-Response" class="button">Open snohomishcountywa.gov</a></li>
 											</ul>
 										</section>
 									</div>
@@ -678,7 +697,7 @@
 								}
 								
 								
-								var WAids=["seattle"];
+								var WAids=["seattle", "Snohomish"];
 								var WAdropDown = document.getElementById("citySel");
 										
 								WAdropDown.onchange = function(){
