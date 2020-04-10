@@ -159,9 +159,10 @@
 							
 							<div id="washington" class="hidden" style="display: block;">
 								<div class="f-wrapper">
-						    		<select id="citySel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
-						           		<option value="seattle">Seattle & King County</option>
+						    			<select id="citySel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
+						           			<option value="seattle">Seattle & King County</option>
 										<option value="Snohomish">Snohomish County</option>
+										<option value="Pierce">Pierce County</option>
 								  	</select>
 								</div>
 								<p>Select your city or county from the drop down to see localized resources</p>
@@ -205,6 +206,16 @@
 											<p>The Snohomish Health District is providing updates at approximately 2 p.m daily on case counts in Snohomish County.</p>
 											<ul class="actions">
 												<li><a href="https://snohomishcountywa.gov/5589/COVID-19-Response" class="button">Open snohomishcountywa.gov</a></li>
+											</ul>
+										</section>
+									</div>
+								</div>
+								<div id="Pierce" class="hidden" style="display: none;">
+									<div class="features">
+										<section>
+											<h3>Tacoma-Pierce County Health Department COVID-19 Case Status</h3>
+											<ul class="actions">
+												<li><a href="https://www.tpchd.org/healthy-people/diseases/covid-19-pierce-county-cases/" class="button">Open tpchd.org</a></li>
 											</ul>
 										</section>
 									</div>
@@ -850,7 +861,7 @@
 								}
 								
 								
-								var WAids=["seattle", "Snohomish"];
+								var WAids=["seattle", "Snohomish", "Pierce"];
 								var WAdropDown = document.getElementById("citySel");
 										
 								WAdropDown.onchange = function(){
