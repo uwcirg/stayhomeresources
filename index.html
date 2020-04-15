@@ -340,6 +340,26 @@
 								</div>
 							</div>
 							<div id="Florida" class="hidden"  style="display: none;">
+								<div class="f-wrapper">
+						    		<select id="FLcitySel" class="cbx" tabindex="50" name="role" style="font-weight: bold;">
+						           		<option value="FIU">Miami-Dade County (FIU NeighborhoodHELP)</option>
+								  		
+									</select>
+								</div>
+								<p>Select your city, county or organization from the drop down to see localized resources</p>
+  
+								<div id="FIU" class="hidden" style="display: block;">
+									<div class="features">
+										<section>
+											<h3>The 311 Contact Center provides a fast, simple and convenient way for information on local government services.</h3>
+											<ul class="actions">
+												<li><a href="https://www8.miamidade.gov/global/initiatives/coronavirus/home.page" class="button">Open miamidade.gov</a></li>
+											</ul>
+										</section>
+										
+									</div>
+								</div>
+								
 								<div class="features">
 									<section>  
 										<h3>Florida Health 2019 Novel Coronavirus Response (COVID-19)</h3>
@@ -883,6 +903,16 @@
 								ORdropDown.onchange = function(){
 								    for(var x = 0; x < ORids.length; x++){   
 								        document.getElementById(ORids[x]).style.display="none";
+								    }    
+								    document.getElementById(this.value).style.display = "block";
+								}
+								
+								var FLids=["FIU"];
+								var FLdropDown = document.getElementById("FLcitySel");
+										
+								FLdropDown.onchange = function(){
+								    for(var x = 0; x < FLids.length; x++){   
+								        document.getElementById(FLids[x]).style.display="none";
 								    }    
 								    document.getElementById(this.value).style.display = "block";
 								}
