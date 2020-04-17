@@ -3228,6 +3228,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		background-color: #FAF7FB;
 	}
 
 		.wrapper > .inner {
@@ -3261,15 +3262,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #394672;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #FAF7FB;
 		}
 
 		.wrapper.style1-alt {
-			background-color: rgba(32, 23, 51, 1)/*#493382*/;
+			background-color: #394672;
 		}
 
 		.wrapper.style2 {
@@ -3289,7 +3290,7 @@ input, select, textarea {
 		}
 		
 		
-		.wrapper.styledark {
+		/*.wrapper.styledark {
 			background-color: #394672;
 		}
 
@@ -3320,7 +3321,7 @@ input, select, textarea {
 
 		.wrapper.style4-alt {
 			background-color: #052223;
-		}
+		}*/
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
