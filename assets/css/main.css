@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(31, 27, 51, 0.8);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -151,18 +151,18 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		border-bottom: dotted 1px rgba(31, 27, 51, 0.8);
 		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #5835BD;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #1F1B33;
 		font-weight: bold;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #1F1B33;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1835,11 +1835,11 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
-		background-color: transparent;
-		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		background-color: rgba(88, 53, 189, 1);
+		border: solid 2px !important;
+		border-color: rgba(88, 53, 189, 1) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #FFF !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1870,7 +1870,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: rgba(88, 53, 189, 0.5);
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1949,7 +1949,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(88, 53, 189, 0.5) !important;
+			background-color: rgba(88, 53, 189, 0.5) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1992,15 +1993,15 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.05);
+		/*border: solid 1px rgba(88, 53, 189, 0.5);*/
+		background: rgba(88, 53, 189, 0.05);
 		margin: 0 0 2em 0;
 	}
 
 		.features section {
 			padding: 1.5em 1.5em 0.1em 1.5em ;
 			width: 100%;
-			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			/*border-top: solid 1px rgba(88, 53, 189, 0.5);*/
 			position: relative;
 		}
 
@@ -2321,17 +2322,17 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.05);
+		background: rgba(88, 53, 189, 0.05);
 		border-radius: 0.25em;
 		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+		border: solid 2px rgba(88, 53, 189, 0.5);
+		/*border-bottom: solid 2px rgba(88, 53, 189, 1);*/
 		color: inherit;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		color: #ffffff;
+		color: #1F1B33;
 		font-weight: bold;
 		font-size: 1.25em;
 		width: 75%;
@@ -2364,12 +2365,12 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffffff;
+			border-color: rgba(88, 53, 189, 1);
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.15)' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(31, 27, 51, 1)' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2379,8 +2380,8 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
-			background: #312450;
+			color: #1F1B33;
+			background: rgba(88, 53, 189, 0.05);
 		}
 
 		select:focus::-ms-value {
@@ -3227,6 +3228,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		
 	}
 
 		.wrapper > .inner {
@@ -3260,15 +3262,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #394672;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #FAF7FB;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #394672;
 		}
 
 		.wrapper.style2 {
@@ -3280,12 +3282,46 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #FAF7FB;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #394672;
 		}
+		
+		
+		/*.wrapper.styledark {
+			background-color: #394672;
+		}
+
+		.wrapper.styledark-alt {
+			background-color: #27304F;
+		}
+		
+		
+		.wrapper.style5 {
+			background-color: #323859;
+		}
+
+		.wrapper.style5-alt {
+			background-color: #1F1B2D;
+		}
+		
+		.wrapper.style4 {
+			background-color: #5F6692;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #3C425D;
+		}
+		
+		.wrapper.style4 {
+			background-color: #173B44;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #052223;
+		}*/
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3569,7 +3605,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.55);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3593,10 +3629,11 @@ input, select, textarea {
 			}
 
 			#menuToggle a:before {
-				background: #3c2c62;
+				background: #5835BD;
 			}
 
 			#menuToggle a:after {
+				color: rgba(255, 255, 255, 1);
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
@@ -3609,11 +3646,11 @@ input, select, textarea {
 			}
 
 			#menuToggle a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 1);				
 			}
 
 			#menuToggle a.active {
-				color: #ffffff;
+				color: rgba(32, 23, 51, 1);
 			}
 
 				#menuToggle a.active:after {
@@ -3664,7 +3701,7 @@ input, select, textarea {
 	  		margin-bottom: 5px;
 	  		position: relative;
 	  
-	  		background: white;
+	  		background: #5835BD;
 	  		border-radius: 3px;
 	  
 	  		z-index: 1;
@@ -3691,7 +3728,7 @@ input, select, textarea {
 		#menuToggle input:checked ~ span {
 	  		opacity: 1;
 	  		transform: rotate(45deg) translate(-2px, -1px);
-	  		background: white;
+	  		background: #fff;
 		}
 	
 	/*
@@ -3717,16 +3754,16 @@ input, select, textarea {
 		#menu {
 	  		
 			
-			background: #312450;
+			background: #5835BD/*#312450*/;
 			height: 80vh;
 			
-			
+			color: #fff;
 			
 			
 
 
 			position: absolute;
-	  		width: 250px;
+	  		width: 300px;
 	  		margin: -100px 0 0 0;
 	  		padding: 20px;
 	  		padding-top: 125px;
@@ -3745,8 +3782,9 @@ input, select, textarea {
 	
 		#menu li {
 	  		padding: 10px 0;
-			
-	  		/*font-size: 22px;*/
+			width: 10em;
+	  		font-size: 18px;
+			color: #fff;
 		}
 	
 	/*
@@ -3762,7 +3800,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #5835BD/*#7D7D9B #3C425D*/;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3975,9 +4013,9 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.55);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3999,14 +4037,21 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #5835BD/*#8C7381*/;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #E8E3D3, #5835BD);
+				background-image: -webkit-linear-gradient(to right, #E8E3D3, #5835BD);
+				background-image: -ms-linear-gradient(to right, #E8E3D3, #5835BD);
+				background-image: linear-gradient(to right, #E8E3D3, #5835BD);
+				
+				
+				/*background-image: -moz-linear-gradient(to right, #E6C1AE, #8C7381);
+				background-image: -webkit-linear-gradient(to right, #E6C1AE, #8C7381);
+				background-image: -ms-linear-gradient(to right, #E6C1AE, #8C7381);
+				background-image: linear-gradient(to right, #E6C1AE, #8C7381);
+				*/
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -4015,7 +4060,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.85);
 			}
 
 			#sidebar nav a.active {
