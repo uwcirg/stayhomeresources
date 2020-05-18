@@ -158,7 +158,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #5835BD;
+			color: #512DA8;
 		}
 
 	strong, b {
@@ -3270,7 +3270,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #394672;
+			background-color: #2B4162;
 		}
 
 		.wrapper.style2 {
@@ -3629,7 +3629,7 @@ input, select, textarea {
 			}
 
 			#menuToggle a:before {
-				background: #5835BD;
+				background: #512DA8;
 			}
 
 			#menuToggle a:after {
@@ -3701,7 +3701,7 @@ input, select, textarea {
 	  		margin-bottom: 5px;
 	  		position: relative;
 	  
-	  		background: #5835BD;
+	  		background: #512DA8;
 	  		border-radius: 3px;
 	  
 	  		z-index: 1;
@@ -3754,7 +3754,7 @@ input, select, textarea {
 		#menu {
 	  		
 			
-			background: #5835BD/*#312450*/;
+			background: #512DA8;
 			height: 80vh;
 			
 			color: #fff;
@@ -3800,7 +3800,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #5835BD/*#7D7D9B #3C425D*/;
+		background: #512DA8;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -4037,14 +4037,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #5835BD/*#8C7381*/;
+				background: #512DA8;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #E8E3D3, #5835BD);
-				background-image: -webkit-linear-gradient(to right, #E8E3D3, #5835BD);
-				background-image: -ms-linear-gradient(to right, #E8E3D3, #5835BD);
-				background-image: linear-gradient(to right, #E8E3D3, #5835BD);
+				background-image: -moz-linear-gradient(to right, #E8E3D3, #512DA8);
+				background-image: -webkit-linear-gradient(to right, #E8E3D3, #512DA8);
+				background-image: -ms-linear-gradient(to right, #E8E3D3, #512DA8);
+				background-image: linear-gradient(to right, #E8E3D3, #512DA8);
 				
 				
 				/*background-image: -moz-linear-gradient(to right, #E6C1AE, #8C7381);
