@@ -1918,7 +1918,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: rgba(88, 53, 189, 0.0); /*transparent*/
 			color: #312450 !important;
 		}
 
