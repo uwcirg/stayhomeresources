@@ -1918,7 +1918,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: rgba(88, 53, 189, 0.0); /*transparent*/
 			color: #312450 !important;
 		}
 
@@ -2700,11 +2700,16 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
+		
+  		flex-wrap: wrap;
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			/*display: inline-block;*/
+    			margin: 5px 0;
 		}
 
 		ul.actions.special {
